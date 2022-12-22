@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400&display=swap");
+
+section {
+  font-family: "Andika", sans-serif;
+  height: 100vh;
+  color: #ccc;
+  text-shadow: 1px 1px 2px black;
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+h1 {
+  font-family: "Carter One", cursive;
+  padding-top: 1em;
+  color: #472183;
+}
+
+footer {
+  background-color: #472183;
+}
+
+.card {
+  width: 350px;
+  height: 520px;
+  background-color: #4b56d2;
+  overflow: hidden;
+}
+
+.card img {
+  width: 350px;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  font-style: italic;
+}
+
+.card:hover {
+  transition: 0.5s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+}
+
+.btn {
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
