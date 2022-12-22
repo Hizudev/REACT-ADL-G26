@@ -1,19 +1,19 @@
-const Card = (props) => {
+const Card = ({link, titulo, descripcion, width}) => {
   return (
     <div className="card text-center">
-      <img src={`${props.link}`} alt="" />
+      <img src={`${link}`} alt="" />
       <div className="card-body d-flex flex-column justify-content-between">
         <div>
-          <h4 className="card-title">{props.titulo}</h4>
-          <p className="card-text">{props.descripcion}</p>
+          <h4 className="card-title">{titulo}</h4>
+          <p className="card-text">{descripcion}</p>
         </div>
         <a
-          href={`https://picsum.photos/${props.width}`}
+          href={`https://picsum.photos/${width}`}
           target="_blank"
           rel="noopener"
           className="btn btn-primary"
         >
-          Imagen random de {props.width}x{props.width}
+          Imagen random de {width}x{width}
         </a>
       </div>
     </div>

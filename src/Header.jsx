@@ -1,6 +1,6 @@
-const Header = (props)=>{
+const Header = ({text})=>{
     return(
-        <h1 className={`text-center`}>{props.text}</h1>
+        <h1 className={`text-center`}>{text}</h1>
     );
 };
 
